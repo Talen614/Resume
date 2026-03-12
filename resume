@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+           <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fabian Agutu|Resume</title>
+        <style>
+      body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #E8D8BF, #D2B48C);
+      padding: 40px;
+      line-height: 1.6;
+      }
+     h1 { color: #2C3E50; margin-bottom: 10px; }
+
+     h2 { 
+     clear: both; 
+     color: #2C3E50; 
+     margin-bottom: 5px; 
+     }
+
+     h3 { color: rgb(59, 151, 238); margin-top: 20px; margin-bottom: 5px; }
+
+     p { margin-top: 0; margin-bottom: 15px; }
+
+     ul {
+     display: flex;
+     list-style-type: none;
+     gap: 20px;
+     padding: 0;
+     }
+
+
+     .heading{
+     background-color: aliceblue;
+     color: black;
+     border: 2px solid black;
+     margin: 20px;
+     padding: 20px;
+     }
+
+
+     .note{
+     font-size: larger;
+     color: rgb(72, 132, 167);
+     }
+     
+     
+     .profile { 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 30px;
+     padding-bottom: 20px;
+     border-bottom: 1px solid rgba(0,0,0,0.1); 
+     }
+      
+      .contact-info {
+     display: flex;
+     list-style-type: none;
+     gap: 20px;
+     padding: 0;
+     margin-top: 5px;
+     }
+    
+
+     a:link {
+     color: #3182CE;
+     background-color: transparent;
+     text-decoration: none;
+     }
+
+     a:visited {
+     color: #3182CE;
+     background-color: transparent;
+     text-decoration: none;
+     }
+
+     a:hover {
+     color: rgb(241, 80, 80);
+     background-color: transparent;
+     text-decoration: underline;
+     }
+
+     a:active {
+     color: yellow;
+     background-color: transparent;
+     text-decoration: underline;
+     }
+
+     
+        </style>
+    </head>
+<body>
+  
+ <div class="profile">
+  <h1>FABIAN AGUTU OTIENO</h1>
+   <h2>PROFILE</h2>
+   <h3>Kibabii University Student | Front End Dev</h3>
+   <ul class="contact-info">
+      <li style="color: #3182CE;">+254712970158</li>
+      <li><a href="mailto:agutufabian@gmail.com">agutufabian@gmail.com</a></li>
+      <li><a href="https://github.com/Talen614" target="_blank">GitHub</a></li>
+   </ul>
+</div>
+   <h2>AT A GLANCE</h2>
+    <p>I am a front end developer with sufficient knowledge in html, css and javascript. I am currently a   second year student at Kibabii university
+      pursuing a degree in Bachelor of arts. I took a full stack course from <a href="https://w3schools.com" target="_self">w3schools.com</a> where I 
+      was able to gain sufficient proficiency in all my courses. I am very passionate about computer programming and helpful digital content.  </p>
+
+    <div> <h3>EDUCATION</h3>
+      <p><span class="note">AGORO SARE HIGH SCHOOL</span><br>High school education 2020-2023</p>
+      <p><span class="note">KIBABII UNIVERSITY</span><br>Bachelor of arts [currently ongoing]</p>
+    </div>
+
+    <div style="max-width: 800px; margin: 20px 0; font-family: Arial, sans-serif;">
+  <h3 style="color: #2c3e50; border-bottom: 2px solid rgba(0, 128, 128, 0.2); padding-bottom: 10px; margin-bottom: 15px;">Technical Skills</h3>
+  
+  <table style="width: 100%; border-collapse: collapse; font-size: 14px; color: #333;">
+    <thead>
+      <tr style="background-color: #f8f9fa; border-bottom: 2px solid #ddd;">
+        <th style="text-align: left; padding: 10px; text-transform: uppercase; font-size: 12px; color: #666;">Category</th>
+        <th style="text-align: left; padding: 10px; text-transform: uppercase; font-size: 12px; color: #666;">Skills</th>
+      </tr>    <!--<a href="https://https://www.instagram.com/peejay_076/">idk</a>-->
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(0, 128, 128, 0.2);">
+        <td style="padding: 12px; font-weight: bold; color: #2980b9; width: 30%;">Web Dev</td>
+        <td style="padding: 12px;">HTML5, CSS3, JavaScript, Responsive Design</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #ffffff;">
+        <td style="padding: 12px; font-weight: bold; color: #2980b9;">Social Sciences</td>
+        <td style="padding: 12px;">Economic Research, Field Studies, Linguistics</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #ffffff;">
+        <td style="padding: 12px; font-weight: bold; color: #2980b9;">Soft Skills</td>
+        <td style="padding: 12px;">Intercultural Communication, Adaptability, Academic Writing</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html> 
